@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:id="@+id/textos"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lanterna"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vibracao"
+            android:textSize="20sp"
+            android:layout_marginStart="230dp"
+            />
+
+    </LinearLayout>
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_marginStart="15dp"
+        android:id="@+id/switchLantern"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textos"
+        android:layout_marginTop="10dp"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_marginEnd="15dp"
+        android:id="@+id/switchMotor"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textos"
+        android:layout_marginTop="10dp"
+        android:layout_alignEnd="@+id/textos"
+        />
+
+    <Button
+        android:onClick="ClassReadings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/classficar_leituras"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="lanterna">Lanterna:</string>
+    <string name="vibracao">Vibração:</string>
+    <string name="classficar_leituras">Classficar leituras</string>
+</resources>
